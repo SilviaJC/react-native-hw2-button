@@ -11,6 +11,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.hwTit}> HW 4 - 2-w1-自製元件</Text>
       <AzulButton title={'Click Me'} bg={'green'} color={'white'} onPress={() => printButton()} />
+      {/* <AzulButton title={'Click Me'} onPress={() => printButton()} /> */}
     </View>
   );
 }
